@@ -23,42 +23,48 @@ Experiment with different Bootstrap components (e.g., alerts, badges) to enhance
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <link rel="stylesheet" href="style.css" />
+ 
     <!-- Bootstrap CSS v5.2.1 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
-</head>
+   <link rel="stylesheet" href="style.css" />
+    </head>
 
 <body class="d-flex flex-column min-vh-100">
     <header>
-        
+
     </header>
     <main class="container text-center my-auto">
         <h1>Magic 8 Ball</h1>
         <p id="response-text"> Ask a Question... (if you dare)</p>
+        <div class="backcircle"></div>
+        <div class="innercricle"></div>
+        <div class="triangle"></div>
         <img src="" alt="" id="response-img" class="img img-fluid">
         <button onclick="shakeMagic8Ball()" class="btn btn-primary">
             Shake the Magic 8 Ball
         </button>
     </main>
 
-    <footer class="footer">
-        <h1 class="logo"><a href="" class="hover-underline" target="_blank">Madison Beard</a></h1>
-        <!-- BACK TO TOP BUTTON -->
-        <div class="footer-nav">
-            <a href="#top" class="back-to-top">Back to Top</a>
-        </div>
-        <br>
+    <div class="container">
+        <footer class="footer">
+            <h1 class="logo"><a href="" class="hover-underline" target="_blank">Madison Beard</a></h1>
+            <!-- BACK TO TOP BUTTON -->
+            <div class="footer-nav">
+                <a href="#top" class="back-to-top">Back to Top</a>
+            </div>
+            <br>
 
-        <p class="bottom">Stay in touch</p>
-        <div class="footer-nav">
-            <a href="#">Phone: 877-705-2286 </a>
-            <a href="#">Address: Crystal Springs Resort Sussex County, NJ12</a>
-        </div>
+            <p class="bottom">Stay in touch</p>
+            <div class="footer-nav">
+                <a href="#">Phone: 877-705-2286 </a>
+                <a href="#">Address: Crystal Springs Resort Sussex County, NJ12</a>
+            </div>
 
-        <p class="copyright">© Madison Beard. All Rights Reserved.</p>
-    </footer>
-    
+            <p class="copyright">© Madison Beard. All Rights Reserved.</p>
+        </footer>
+    </div>
+
     <script src="8ball.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"

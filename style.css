@@ -1,0 +1,95 @@
+body{
+    background-image: url('starry.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+h1{
+    color:white;
+}
+
+p{
+    color:white;
+}
+
+.backcircle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  height: 300px;
+  background-color: black;
+  border-radius: 50%;
+}
+
+.innercricle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 250px;
+    height: 250px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.triangle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(60deg);
+  width: 0;
+  height: 0;
+  border-left: 75px solid transparent;
+  border-right: 75px solid transparent;
+  border-bottom: 130px solid rgb(38, 38, 99);
+}
+
+.footer {
+  text-align: center;
+  padding: 120px 10px 120px 10px;
+  background-color: rgba(255, 255, 255, 0.3); /* Semi-transparent background */
+  backdrop-filter: blur(15px); /* Adjust the blur intensity */
+}
+
+.footer a {
+  margin: 0 12px;
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+
+.logo {
+  font-size: 2rem;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.back-to-top {
+  font-size: 20px;
+}
+
+.back-to-top:hover {
+  color: #FFFFFF;
+}
+
+.footer-nav a {
+  margin: 0 12px;
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+
+.bottom {
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-bottom: 0px;
+}
+
+footer .copyright {
+  font-size: 0.9rem;
+  color: white;
+  margin-top: 0px;
+}
