@@ -1,8 +1,8 @@
 body{
-    background-image: url('starry.jpg');
+    background-image: url('coolors.png'); 
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center center; 
 }
 
 h1{
@@ -11,16 +11,27 @@ h1{
 
 p{
     color:white;
+    font-size:30px;
+}
+.words{
+  text-align:center;
+  margin-top:130px;
+}
+
+.bcolor{
+  background-color:#226F54;
+  color:white;
+  transform: translate(0%, 210%);
 }
 
 .backcircle {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -60%);
   width: 300px;
   height: 300px;
-  background-color: black;
+  background-color: #F2D0A4;
   border-radius: 50%;
 }
 
@@ -28,10 +39,10 @@ p{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -64%);
     width: 250px;
     height: 250px;
-    background-color: white;
+    background-color: #FFECCC;
     border-radius: 50%;
 }
 
@@ -39,53 +50,19 @@ p{
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%) rotate(60deg);
+  transform: translate(-40%, -95%) rotate(60deg);
   width: 0;
   height: 0;
-  border-left: 75px solid transparent;
-  border-right: 75px solid transparent;
-  border-bottom: 130px solid rgb(38, 38, 99);
+  border-left: 80px solid transparent;
+  border-right: 80px solid transparent;
+  border-bottom: 140px solid #A4303F;
 }
 
 .footer {
   text-align: center;
-  padding: 120px 10px 120px 10px;
+  padding: 10px 10px 10px 10px;
   background-color: rgba(255, 255, 255, 0.3); /* Semi-transparent background */
   backdrop-filter: blur(15px); /* Adjust the blur intensity */
-}
-
-.footer a {
-  margin: 0 12px;
-  text-decoration: none;
-  color: white;
-  font-weight: 500;
-}
-
-.logo {
-  font-size: 2rem;
-  color: white;
-  margin-bottom: 20px;
-}
-
-.back-to-top {
-  font-size: 20px;
-}
-
-.back-to-top:hover {
-  color: #FFFFFF;
-}
-
-.footer-nav a {
-  margin: 0 12px;
-  text-decoration: none;
-  color: white;
-  font-weight: 500;
-}
-
-.bottom {
-  font-weight: bold;
-  font-size: 1.1rem;
-  margin-bottom: 0px;
 }
 
 footer .copyright {
