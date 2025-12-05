@@ -76,3 +76,12 @@ function shakeMagic8Ball() {
     document.getElementById('response-text').classList = `display-4 text-center strong ${color}`
     document.getElementById('response-img').src = image
 }
+
+const ball = document.getElementById("eightball-img");
+
+ball.classList.add("spin");
+
+// remove animation class after it finishes
+setTimeout(() => {
+  ball.classList.remove("spin");
+}, 100000);
