@@ -30,3 +30,35 @@ footer .copyright {
   color: white;
   margin-top: 0px;
 }
+
+.glow-btn {
+  padding: 12px 28px;
+  font-size: 18px;
+  border: none;
+  border-radius: 10px;
+  background: #6d1818;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s ease;
+  box-shadow: 0 0 0 rgba(88, 101, 242, 0);
+}
+
+.glow-btn:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(255, 255, 255, 0.6);
+}
+
+.spin {
+  animation: spin 5s ease-in-out;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
