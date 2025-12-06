@@ -1,19 +1,4 @@
-<!-- HTML Structure:
-Create a header containing the title of your Magic 8-Ball website.
-Set up a main content section where the Magic 8-Ball responses will be displayed.
-Include a button to trigger the Magic 8-Ball response.
-    CSS Styling:
-Utilize Bootstrap classes for layout, responsiveness, and styling.
-Apply custom CSS styles to modify the appearance of your Magic 8-Ball elements. 
-You can change colors, fonts, and spacing to make it visually appealing.
-    JavaScript Functionality:
-Implement the JavaScript code for the Magic 8-Ball functionality.
-Use the provided code as a starting point and make modifications to customize the responses.
-Explore ways to enhance the user experience, such as animations or transitions.
-    Customization:
-Replace the default images with your own images for the Magic 8-Ball.
-Add additional HTML elements, such as a footer with your name and a brief description of your Magic 8-Ball.
-Experiment with different Bootstrap components (e.g., alerts, badges) to enhance the design. -->
+<!-- create a custom modal, make the 8 ball shake on reload, make the img spin  -->
 
 <!doctype html>
 <html lang="en">
@@ -42,13 +27,15 @@ Experiment with different Bootstrap components (e.g., alerts, badges) to enhance
         </div>
     </header>
     <div class="container text-center my-auto">
-        <div class="backcircle"></div>
-        <div class="innercricle"></div>
-        <div class="triangle"></div>
-        <img src="" alt="" id="response-img" class="img img-fluid">
-        <button onclick="shakeMagic8Ball()" class="btn bcolor">
-            Shake the Magic 8 Ball
-        </button>
+        <div class="row text-center d-flex justify-content-evenly">
+            <div class="col-12 col-lg-4">
+                <img src="8ballpic.png" alt="Magic 8 Ball" class="img img-fluid mb-4" id="eightball-img">
+                <img src="" alt="" id="response-img" class="img img-fluid">
+                <button onclick="shakeMagic8Ball()" class="glow-btn line-btn">
+                    Shake the Magic 8 Ball
+                </button>
+            </div>
+        </div>
     </div>
 
 
