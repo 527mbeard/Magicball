@@ -15,12 +15,13 @@ p{
 }
 .words{
   text-align:center;
-  margin-top:130px;
+  margin-top:30px;
 }
 
 .footer {
   text-align: center;
   padding: 10px 10px 10px 10px;
+  margin-top:20px;
   background-color: rgba(255, 255, 255, 0.3); /* Semi-transparent background */
   backdrop-filter: blur(15px); /* Adjust the blur intensity */
 }
