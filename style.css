@@ -1,17 +1,23 @@
 body{
-    background-image: url('coolors.png'); 
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center; 
+  background-image: url('coolors.png'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center; 
 }
 
 h1{
-    color:white;
+  color:white;
+  font-family: "unibody-8-new", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 p{
-    color:white;
-    font-size:30px;
+  color:white;
+  font-size:30px;
+  font-family: "cofo-sans-pixel", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 .words{
   text-align:center;
@@ -45,8 +51,8 @@ footer .copyright {
 }
 
 .glow-btn:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 8px 20px rgba(255, 255, 255, 0.6);
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgb(109, 24, 24, 0.9);
 }
 
 .spin {
@@ -58,7 +64,7 @@ footer .copyright {
     transform: rotate(0deg);
   }
   100% {
-    transform: rotate(360deg);
+    transform: rotate(720deg);
   }
 }
 
