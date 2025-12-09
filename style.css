@@ -19,6 +19,7 @@ p{
   font-weight: 400;
   font-style: normal;
 }
+
 .words{
   text-align:center;
   margin-top:30px;
@@ -53,6 +54,8 @@ footer .copyright {
 .glow-btn:hover {
   transform: translateY(-10px);
   box-shadow: 0 8px 20px rgb(109, 24, 24, 0.9);
+  background: white;
+  color: #6d1818;
 }
 
 .spin {

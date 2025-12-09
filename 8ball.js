@@ -23,7 +23,7 @@ function shakeMagic8Ball() {
         case 1:
             answer = "Ask again later.";
             image = "asklater.png";
-            color = "text-info";
+            color = "text-primary";
             break;      
         case 2:
             answer = "Don't count on it.";
@@ -58,7 +58,7 @@ function shakeMagic8Ball() {
         case 8: 
             answer = "Cannot predict now.";
             image = "cannotpredict.png";
-            color = "text-info";
+            color = "text-primary";
             break;  
         case 9:
             answer = "Hell naw!";
